@@ -1,17 +1,16 @@
-Package: ip2location_data
+Package: ip2locationData
 Title: IP Address matched to location
 Version: 0.0.0.9001
 Authors@R: c(
-    person(c("Ronald", "E."), "Robertson",, "rrobertson@aibrt.org", c("cre", "aut")),
-    person("Felix", "Tran", email = "felix.2930@gmail.com", role = "ctb"),
-    person("Christine", "Mourani", email = "cmourani12@yahoo.com", role = "ctb"),
-    person("Jonathan", "Mejia", email = "mejiajon@yahoo.com", role = "ctb")
+    person(c("Ronald", "E."), "Robertson", email = "ronaldrobertson8@yahoo.com", role = c("cre", "aut")),
+    person(c("Felix", "W."), "Tran", email = "felix.2930@gmail.com", role = "aut"),
+    person("Jonathan", "Mejia", email = "mejiajon@yahoo.com", role = "aut"),
+    person("Christine", "Mourani", email = "cmourani12@yahoo.com", role = "aut")
     )
-Description: A database containing location details (region, city, zip, latitude, longitude) for IP addresses. Used in conjunction with package "IPtoCountry"
+Description: A database containing location details (region, city, zip, latitude, longitude) for IP addresses.
+  Used in conjunction with package "IPtoCountry".
 Depends:
-    R (>= 3.2.3),
-Imports:
-   devtools
+    R (>= 3.2.3)
 License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1

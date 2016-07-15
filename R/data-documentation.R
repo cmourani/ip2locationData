@@ -1,3 +1,11 @@
+utils::globalVariables(c("IPfrom", "IPto",
+                         "Country", ".", ":=", "i", "Abrv",
+                         "City", "GMT", "Lat", "Long", "Region",
+                         "Zip", "aggregate", "group", "ip2location.lite.db11",
+                         "lat", "long", "prop")
+)
+
+
 #' IP database - large
 #'
 #' A dataset containing 3,832,909 IP integer ranges and their corresponding country
@@ -21,11 +29,3 @@
 #' }
 #' @source \url{http://lite.ip2location.com}
 "ip2location.lite.db11"
-
-utils::globalVariables(c("IPfrom", "IPto",
-                         "Country", ".", ":=", "i", "Abrv",
-                         "City", "GMT", "Lat", "Long", "Region",
-                         "Zip", "aggregate", "group", "ip2location.lite.db11",
-                         "lat", "long", "prop"
-)
-)
