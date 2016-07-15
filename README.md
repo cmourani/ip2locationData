@@ -1,8 +1,7 @@
-# ip2location_data
-
-[![Build Status](https://travis-ci.org/gitronald/ip2location_data.svg?branch=master)](https://travis-ci.org/gitronald/ip2location_data)
+# ip2locationData
 
 <!--
+[![Build Status](https://travis-ci.org/gitronald/ip2location_data.svg?branch=master)](https://travis-ci.org/gitronald/ip2location_data)
 [![CRAN_Downloads_Badge](http://cranlogs.r-pkg.org/badges/grand-total/IPtoCountryDB11)](http://cran.r-project.org/package=ip2location_data)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ip2location_data)](http://cran.r-project.org/package=ip2location_data)
 -->
@@ -15,8 +14,8 @@ This site or product includes IP2Location LITE data available from http://www.ip
 
 ### Getting Started
 ``` {r}
-devtools::install_github("gitronald/ip2location_data")
-library(ip2location_data)
+devtools::install_github("gitronald/ip2locationData")
+library(ip2locationData)
 data(ip2location.lite.db11)
 ```
 
